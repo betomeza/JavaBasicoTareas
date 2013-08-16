@@ -31,7 +31,7 @@ public class Prestamo {
                     libro.setAutor("Robert C. Martin");
                     libro.setEstado("Prestado");
                     libro.setNumeroISBN("978-9972-58-118-7");
-                    libro.setNumeroPaginas(253);
+                    libro.setNumeroPaginas(453);
 
                     precio = 5 * dias;
                     
