@@ -55,9 +55,7 @@ public class Hilo extends Thread {
         for (int i = inicio; i <= fin; i = i + razon) {         
             if (((inicio + fin) / 2) == i) {
                 this.setRetardo(2 * retardo);
-            } else {
-                this.setRetardo(retardo);
-            }
+            } 
             try {
                 Thread.sleep(this.getRetardo());
             } catch (InterruptedException e) {
