@@ -53,7 +53,7 @@ public class Hilo extends Thread {
         razon = this.razon;
         retardo = this.retardo;
         for (int i = inicio; i <= fin; i = i + razon) {         
-            if ((inicio + fin) / 2 == i) {
+            if (((inicio + fin) / 2) == i) {
                 this.setRetardo(2 * retardo);
             } else {
                 this.setRetardo(retardo);
